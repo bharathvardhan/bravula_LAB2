@@ -1,0 +1,16 @@
+project:
+  type: website
+
+website:
+  title: "Website"
+  navbar:
+    right:
+      - text: "Intro Page"
+        href: intropage.qmd
+      - text: "Duplicate Page 1"
+        href: duplicate1.qmd
+      - text: "Duplicate Page 2"
+        href: duplicate2.qmd
+format:
+  html:
+    theme: cosmo
